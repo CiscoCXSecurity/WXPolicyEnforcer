@@ -1,4 +1,4 @@
-# W^X Poilicy Enforcer
+# W^X Policy Enforcer
 
 This project is a proof of concept (PoC) which implements a W^X policy on memory pages within a process within Windows. W^X means that no page can be marked both writable or executable, though in this case further care is taken to ensure that any page which has been marked as writable can never be marked as executable.
 
@@ -36,3 +36,7 @@ The following applications, during my testing, appeared to work fine with W^X po
 * Paint
 
 This is mostly just for the sake of interest.
+
+## Contact
+
+This tool was written by Graham Sutherland (gsutherl <at> cisco <dot> com). You can also find him on Twitter as @gsuberland.
