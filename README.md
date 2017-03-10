@@ -39,4 +39,4 @@ This is mostly just for the sake of interest.
 
 ## Contact
 
-This tool was written by Graham Sutherland (gsutherl <at> cisco <dot> com). You can also find him on Twitter as @gsuberland.
+This tool was written by Graham Sutherland (gsutherl [at] cisco [dot] com). You can also find him on Twitter as @gsuberland.
