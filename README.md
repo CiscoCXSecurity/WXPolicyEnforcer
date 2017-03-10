@@ -12,6 +12,8 @@ The functions hooked are: VirtualAlloc, VirtualProtect, VirtualFree. Calls to Vi
 
 The git repo for the mhook library [can be found here](https://github.com/martona/mhook). It includes disasm-lib by Matt Conover.
 
+The WXPolicyTest project is a test harness designed to assess whether different allocations work (or not) when the policy is enforced. It's essentially a unit test for lots of different types of memory allocation. It currently covers most bases but there are a few missing (e.g. unaligned allocations, VirtualProtect'ing a page inside a larger allocation, etc.)
+
 ## Known weaknesses
 
 There are a few known weaknesses to this approach from an exploit mitigation perspective:
