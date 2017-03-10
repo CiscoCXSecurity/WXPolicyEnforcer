@@ -1,0 +1,2 @@
+﻿main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  WXPolicyEnforcer.vcxproj -> D:\Downloads\AppInitHook\Debug\WXPolicyEnforcer.dll

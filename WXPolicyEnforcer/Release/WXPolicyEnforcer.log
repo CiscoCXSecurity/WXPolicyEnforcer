@@ -1,0 +1,17 @@
+﻿  stdafx.cpp
+  main.cpp
+  cpu.c
+  disasm.c
+  disasm_x86.c
+mhook\disasm-lib\disasm_x86.c(3740): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+mhook\disasm-lib\disasm_x86.c(3740): warning C4474: 'printf' : too many arguments passed for format string
+  mhook\disasm-lib\disasm_x86.c(3740): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+mhook\disasm-lib\disasm_x86.c(3767): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
+mhook\disasm-lib\disasm_x86.c(3767): warning C4474: 'printf' : too many arguments passed for format string
+  mhook\disasm-lib\disasm_x86.c(3767): note: placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  misc.c
+  mhook.cpp
+  Generating code
+  All 149 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  WXPolicyEnforcer.vcxproj -> D:\Downloads\AppInitHook\Release\WXPolicyEnforcer.dll
